@@ -1,12 +1,12 @@
 ############################
 ### Build dnsutils image ###
 ############################
-FROM ubuntu:focal
+FROM ubuntu:bionic
 
 LABEL maintainer="github.com/nushkovg"
 
 # Install required packages
-RUN apt-get update --allow-unauthenticated \
+RUN apt-get update \
     && apt-get install -yq dnsutils \
     && apt-get install -yq curl \
     && apt-get install -yq libxml2-utils \
