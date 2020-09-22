@@ -1,7 +1,7 @@
 ############################
 ### Build dnsutils image ###
 ############################
-FROM ubuntu:focal
+FROM ubuntu:bionic
 
 LABEL maintainer="github.com/nushkovg"
 
