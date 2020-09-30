@@ -1,6 +1,3 @@
-############################
-### Build dnsutils image ###
-############################
 FROM ubuntu:bionic
 
 LABEL maintainer="github.com/nushkovg"
